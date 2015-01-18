@@ -10,7 +10,7 @@
         "after": [
           {
             "result": {
-              "duration": 4246973000,
+              "duration": 4298753000,
               "status": "passed"
             },
             "match": {
@@ -32,7 +32,7 @@
         "before": [
           {
             "result": {
-              "duration": 8536019000,
+              "duration": 8470235000,
               "status": "passed"
             },
             "match": {
@@ -41,7 +41,7 @@
           },
           {
             "result": {
-              "duration": 7856814000,
+              "duration": 12893267000,
               "status": "passed"
             },
             "match": {
@@ -56,7 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3624563000,
+              "duration": 8337391000,
               "status": "passed"
             },
             "name": "I go to \"http://dubai.dubizzle.com/\"",
@@ -77,7 +77,7 @@
           },
           {
             "result": {
-              "duration": 7115655000,
+              "duration": 10508414000,
               "status": "passed"
             },
             "name": "I click on \u0027Apartment/Flat for Rent\u0027 link",
@@ -89,7 +89,7 @@
           },
           {
             "result": {
-              "duration": 11942729000,
+              "duration": 14255833000,
               "status": "passed"
             },
             "name": "I select sort by \"Price Lowest to Highest\"",
@@ -110,7 +110,7 @@
           },
           {
             "result": {
-              "duration": 12450208000,
+              "duration": 11098110000,
               "status": "passed"
             },
             "name": "I select \u0027Neighborhoods\u0027 as \"Marina\"",
@@ -131,7 +131,7 @@
           },
           {
             "result": {
-              "duration": 5381505000,
+              "duration": 5336641000,
               "status": "passed"
             },
             "name": "I click on \u0027Advanced Option\u0027 in search window",
@@ -143,7 +143,7 @@
           },
           {
             "result": {
-              "duration": 5558313000,
+              "duration": 4983234000,
               "status": "passed"
             },
             "name": "I select minimum bathrooms as two",
@@ -155,7 +155,7 @@
           },
           {
             "result": {
-              "duration": 4336428000,
+              "duration": 6266900000,
               "status": "passed"
             },
             "name": "I click on \u0027Search\u0027 button",
@@ -167,7 +167,7 @@
           },
           {
             "result": {
-              "duration": 135000,
+              "duration": 137000,
               "status": "passed"
             },
             "name": "result page should display least expensive apartment in order which has at least two bathrooms",
@@ -179,7 +179,7 @@
           },
           {
             "result": {
-              "duration": 5824679000,
+              "duration": 9203860000,
               "status": "passed"
             },
             "name": "I go to last item from result set",
@@ -191,7 +191,7 @@
           },
           {
             "result": {
-              "duration": 4002462000,
+              "duration": 3402964000,
               "status": "passed"
             },
             "name": "I verify it has two bathrooms",
@@ -208,7 +208,7 @@
         "after": [
           {
             "result": {
-              "duration": 5421897000,
+              "duration": 4540097000,
               "status": "passed"
             },
             "match": {
@@ -234,7 +234,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3120673000,
+              "duration": 3051023000,
               "status": "passed"
             },
             "name": "I go to \"http://dubai.dubizzle.com/\"",
@@ -255,7 +255,7 @@
           },
           {
             "result": {
-              "duration": 8199817000,
+              "duration": 9059004000,
               "status": "passed"
             },
             "name": "I click on \u0027Apartment/Flat for Rent\u0027 link",
@@ -267,7 +267,7 @@
           },
           {
             "result": {
-              "duration": 13348347000,
+              "duration": 15179823000,
               "status": "passed"
             },
             "name": "I select sort by \"Oldest to Newest\"",
@@ -288,7 +288,7 @@
           },
           {
             "result": {
-              "duration": 11135817000,
+              "duration": 11248227000,
               "status": "passed"
             },
             "name": "I select \u0027Neighborhoods\u0027 as \"Dubai hills\"",
@@ -309,7 +309,7 @@
           },
           {
             "result": {
-              "duration": 5368135000,
+              "duration": 5356775000,
               "status": "passed"
             },
             "name": "I click on \u0027Advanced Option\u0027 in search window",
@@ -321,7 +321,7 @@
           },
           {
             "result": {
-              "duration": 4517216000,
+              "duration": 4134030000,
               "status": "passed"
             },
             "name": "I select minimum bathrooms as two",
@@ -333,7 +333,7 @@
           },
           {
             "result": {
-              "duration": 4557784000,
+              "duration": 5148065000,
               "status": "passed"
             },
             "name": "I click on \u0027Search\u0027 button",
@@ -345,7 +345,7 @@
           },
           {
             "result": {
-              "duration": 110000,
+              "duration": 87000,
               "status": "passed"
             },
             "name": "result page should display least expensive apartment in order which has at least two bathrooms",
@@ -357,7 +357,7 @@
           },
           {
             "result": {
-              "duration": 6385315000,
+              "duration": 7755038000,
               "status": "passed"
             },
             "name": "I go to last item from result set",
@@ -369,8 +369,9 @@
           },
           {
             "result": {
-              "duration": 3458530000,
-              "status": "passed"
+              "duration": 3179558000,
+              "status": "failed",
+              "error_message": "junit.framework.AssertionFailedError: Something went wrong\n\tat junit.framework.Assert.fail(Assert.java:57)\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\n\tat junit.framework.TestCase.assertTrue(TestCase.java:192)\n\tat UIfunctionaltests.testcases.stepdef.AppTest.I_verify_it_has_two_bathrooms(AppTest.java:84)\n\tat ✽.Then I verify it has two bathrooms(UIfunctionaltests/testcases/Dubzzile.feature:15)\n"
             },
             "name": "I verify it has two bathrooms",
             "keyword": "Then ",

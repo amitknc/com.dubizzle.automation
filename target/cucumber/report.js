@@ -7,7 +7,7 @@ formatter.feature({
   "line": 1
 });
 formatter.before({
-  "duration": 8536019000,
+  "duration": 8470235000,
   "status": "passed"
 });
 formatter.scenario({
@@ -97,14 +97,14 @@ formatter.match({
   "location": "AppTest.I_go_to(String)"
 });
 formatter.result({
-  "duration": 3624563000,
+  "duration": 8337391000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_click_on_Apartment_Flat_for_Rent_link()"
 });
 formatter.result({
-  "duration": 7115655000,
+  "duration": 10508414000,
   "status": "passed"
 });
 formatter.match({
@@ -117,7 +117,7 @@ formatter.match({
   "location": "AppTest.I_select_sort_by_Price_Lowest_to_Highest(String)"
 });
 formatter.result({
-  "duration": 11942729000,
+  "duration": 14255833000,
   "status": "passed"
 });
 formatter.match({
@@ -130,57 +130,57 @@ formatter.match({
   "location": "AppTest.I_select_Neighborhoods_as(String)"
 });
 formatter.result({
-  "duration": 12450208000,
+  "duration": 11098110000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_click_on_Advanced_Option_in_search_window()"
 });
 formatter.result({
-  "duration": 5381505000,
+  "duration": 5336641000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_select_minimum_bathrooms_as_two()"
 });
 formatter.result({
-  "duration": 5558313000,
+  "duration": 4983234000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_click_on_Search_button()"
 });
 formatter.result({
-  "duration": 4336428000,
+  "duration": 6266900000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.result_page_should_display_least_expensive_apartment_in_order_which_has_at_least_two_bathrooms()"
 });
 formatter.result({
-  "duration": 135000,
+  "duration": 137000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_go_to_last_item_from_result_set()"
 });
 formatter.result({
-  "duration": 5824679000,
+  "duration": 9203860000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_verify_it_has_two_bathrooms()"
 });
 formatter.result({
-  "duration": 4002462000,
+  "duration": 3402964000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 4246973000,
+  "duration": 4298753000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 7856814000,
+  "duration": 12893267000,
   "status": "passed"
 });
 formatter.scenario({
@@ -270,14 +270,14 @@ formatter.match({
   "location": "AppTest.I_go_to(String)"
 });
 formatter.result({
-  "duration": 3120673000,
+  "duration": 3051023000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_click_on_Apartment_Flat_for_Rent_link()"
 });
 formatter.result({
-  "duration": 8199817000,
+  "duration": 9059004000,
   "status": "passed"
 });
 formatter.match({
@@ -290,7 +290,7 @@ formatter.match({
   "location": "AppTest.I_select_sort_by_Price_Lowest_to_Highest(String)"
 });
 formatter.result({
-  "duration": 13348347000,
+  "duration": 15179823000,
   "status": "passed"
 });
 formatter.match({
@@ -303,53 +303,54 @@ formatter.match({
   "location": "AppTest.I_select_Neighborhoods_as(String)"
 });
 formatter.result({
-  "duration": 11135817000,
+  "duration": 11248227000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_click_on_Advanced_Option_in_search_window()"
 });
 formatter.result({
-  "duration": 5368135000,
+  "duration": 5356775000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_select_minimum_bathrooms_as_two()"
 });
 formatter.result({
-  "duration": 4517216000,
+  "duration": 4134030000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_click_on_Search_button()"
 });
 formatter.result({
-  "duration": 4557784000,
+  "duration": 5148065000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.result_page_should_display_least_expensive_apartment_in_order_which_has_at_least_two_bathrooms()"
 });
 formatter.result({
-  "duration": 110000,
+  "duration": 87000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_go_to_last_item_from_result_set()"
 });
 formatter.result({
-  "duration": 6385315000,
+  "duration": 7755038000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_verify_it_has_two_bathrooms()"
 });
 formatter.result({
-  "duration": 3458530000,
-  "status": "passed"
+  "duration": 3179558000,
+  "status": "failed",
+  "error_message": "junit.framework.AssertionFailedError: Something went wrong\n\tat junit.framework.Assert.fail(Assert.java:57)\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\n\tat junit.framework.TestCase.assertTrue(TestCase.java:192)\n\tat UIfunctionaltests.testcases.stepdef.AppTest.I_verify_it_has_two_bathrooms(AppTest.java:84)\n\tat ✽.Then I verify it has two bathrooms(UIfunctionaltests/testcases/Dubzzile.feature:15)\n"
 });
 formatter.after({
-  "duration": 5421897000,
+  "duration": 4540097000,
   "status": "passed"
 });
 });

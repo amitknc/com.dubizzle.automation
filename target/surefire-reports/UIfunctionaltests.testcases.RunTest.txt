@@ -1,4 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: UIfunctionaltests.testcases.RunTest
 -------------------------------------------------------------------------------
-Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 147.24 sec - in UIfunctionaltests.testcases.RunTest
+Tests run: 22, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 168.721 sec <<< FAILURE! - in UIfunctionaltests.testcases.RunTest
+Then I verify it has two bathrooms(| http://dubai.dubizzle.com/ | Dubai hills | Oldest to Newest |)  Time elapsed: 0.009 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Something went wrong
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.TestCase.assertTrue(TestCase.java:192)
+	at UIfunctionaltests.testcases.stepdef.AppTest.I_verify_it_has_two_bathrooms(AppTest.java:84)
+	at ✽.Then I verify it has two bathrooms(UIfunctionaltests/testcases/Dubzzile.feature:15)
+
+| http://dubai.dubizzle.com/ | Dubai hills | Oldest to Newest |  Time elapsed: 0.009 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Something went wrong
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.TestCase.assertTrue(TestCase.java:192)
+	at UIfunctionaltests.testcases.stepdef.AppTest.I_verify_it_has_two_bathrooms(AppTest.java:84)
+	at ✽.Then I verify it has two bathrooms(UIfunctionaltests/testcases/Dubzzile.feature:15)
+
