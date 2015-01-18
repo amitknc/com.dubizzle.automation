@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: UIfunctionaltests.testcases.RunTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 147.24 sec - in UIfunctionaltests.testcases.RunTest
