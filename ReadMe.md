@@ -12,17 +12,9 @@ Copy Chrome driver file in the below location
 
 \src\test\resources
 
-Execution Details
+Execution Details on saucelab
 
-Run the below mvn command to start the test execution
-
-To run the Regression test on uat (Firefox browser)
-
-mvn clean test -Denvironment=uat -Dbrowser=firefox -Dcucumber.options="--tags @RegressionTests" exec:java
-
-To run the Regression test on uat (Chrome browser)
-
-mvn clean test -Denvironment=uat -Dbrowser=chrome -Dcucumber.options="--tags @RegressionTests" exec:java
+Run mvn clean install
 
 Test Report for Sauce Lab execution:
 
@@ -33,6 +25,15 @@ you can watch video of test by clicking link.
 
 
 Test Report for local execution
+
+To run the Regression test on uat (Firefox browser)
+
+mvn clean test -Denvironment=uat -Dbrowser=firefox -Dcucumber.options="--tags @RegressionTests" exec:java
+
+To run the Regression test on uat (Chrome browser)
+
+mvn clean test -Denvironment=uat -Dbrowser=chrome -Dcucumber.options="--tags @RegressionTests" exec:java
+
 
 To execute in local u need to set  flag executeLocal=Y in uat.properties
 
